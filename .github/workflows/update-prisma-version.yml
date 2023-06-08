@@ -8,8 +8,7 @@ jobs:
   check:
     name: Check for Prisma CLI update
     runs-on: ubuntu-latest
-    permissions:
-      contents: write-all
+    permissions: write-all
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
