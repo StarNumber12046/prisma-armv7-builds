@@ -1,6 +1,6 @@
 name: Update prisma version
 permissions:
-  contents: write
+  contents: write-all
 on:
 #  schedule:
 #    - cron: '0 0 * * *'
